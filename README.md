@@ -9,9 +9,9 @@ T5 (Text-To-Text Transfer Transformer) is a transformer designed for sequence-to
 ## Data
 
 Scraped man pages from Linux system in JSON.
+An example of scraped data, as well as prepared data in input/output pairs is available here:
 
-- **man_pages.json** - Contains the complete man page with all sections
-- **masked_man_pages.json** - Contains input/output pairs ready for fine-tuning. The intention is to input a section (such as "gargoyle - curse your friends with dark magic") and receive an output of the remaining sections of the man page.
+https://www.kaggle.com/datasets/boldgerg/linux-man-pages/
 
 ## Training Approach
 
