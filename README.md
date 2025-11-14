@@ -2,6 +2,10 @@
 
 Fine-tuning T5 for generating Linux man page sections.
 
+## Why T5?
+
+T5 (Text-To-Text Transfer Transformer) is used because it's designed for sequence-to-sequence tasks where both input and output are text. The encoder-decoder architecture is well-suited for generating structured documentation like man pages, where one section (input) is used to predict remaining sections (output).
+
 ## Data
 
 Scraped man pages from Linux system in JSON.
